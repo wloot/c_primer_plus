@@ -19,5 +19,10 @@ int main(void) {
     f += 1.0;
     printf("%f\n", f);
 
+    printf("%f\n", f);
+    f = -__FLT_MAX__;    
+    f -= 1.0;
+    printf("%f\n", f);
+
     return 0;
 }
