@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 int year_to_days(int age) {
-    return age*12*30;
+    return age*365;
 }
 
 int main() {
