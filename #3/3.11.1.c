@@ -8,21 +8,21 @@
 #include <stdio.h>
 
 int main(void) {
-    int i = __INT_MAX__;
-    float f = __FLT_MAX__;
+	int i = __INT_MAX__;
+	float f = __FLT_MAX__;
 
-    printf("%d\n", i);
-    i++;
-    printf("%d\n", i);
+	printf("%d\n", i);
+	i++;
+	printf("%d\n", i);
 
-    printf("%f\n", f);
-    f += 1.0;
-    printf("%f\n", f);
+	printf("%f\n", f);
+	f += 0.1f;
+	printf("%f\n", f);
 
-    printf("%f\n", f);
-    f = -__FLT_MAX__;    
-    f -= 1.0;
-    printf("%f\n", f);
+	f = __FLT_MIN__;
+	printf("%0.50f\n", f);
+	f += 1.0f;
+	printf("%0.50f\n", f);
 
-    return 0;
+	return 0;
 }
