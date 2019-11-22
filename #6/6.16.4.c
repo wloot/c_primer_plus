@@ -2,7 +2,7 @@
  * @Author: Julian Liu 
  * @Date: 2019-11-22 22:07:54 
  * @Last Modified by: Julian Liu
- * @Last Modified time: 2019-11-22 22:18:28
+ * @Last Modified time: 2019-11-22 22:22:02
  */
 
 #include <stdio.h>
@@ -17,4 +17,5 @@ int main(void) {
 		c += n;
 		printf("\n");
 	}
+	return 0;
 }

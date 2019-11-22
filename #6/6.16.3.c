@@ -2,7 +2,7 @@
  * @Author: Julian Liu 
  * @Date: 2019-11-22 21:37:28 
  * @Last Modified by: Julian Liu
- * @Last Modified time: 2019-11-22 22:17:02
+ * @Last Modified time: 2019-11-22 22:22:03
  */
 
 #include <stdio.h>
@@ -16,4 +16,5 @@ int main(void) {
 		} while (++n <= i);
 		printf("\n");
 	}
+	return 0;
 }
