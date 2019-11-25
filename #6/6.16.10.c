@@ -2,7 +2,7 @@
  * @Author: Julian Liu 
  * @Date: 2019-11-24 12:01:47 
  * @Last Modified by: Julian Liu
- * @Last Modified time: 2019-11-24 12:43:08
+ * @Last Modified time: 2019-11-25 22:40:36
  */
 
 #include <stdio.h>
@@ -20,4 +20,5 @@ int main(void) {
 		printf("%d\n", i);
 		printf("Enter lower and upper integer limits: ");
 	}
+	return 0;
 }

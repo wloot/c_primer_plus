@@ -2,7 +2,7 @@
  * @Author: Julian Liu 
  * @Date: 2019-11-24 03:09:12 
  * @Last Modified by: Julian Liu
- * @Last Modified time: 2019-11-24 03:40:39
+ * @Last Modified time: 2019-11-25 22:40:57
  */
 
 #include <stdio.h>
@@ -28,4 +28,5 @@ int main(void) {
 		}
 		printf("\n");
 	}
+	return 0;
 }

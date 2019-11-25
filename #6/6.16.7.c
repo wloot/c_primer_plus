@@ -2,7 +2,7 @@
  * @Author: Julian Liu 
  * @Date: 2019-11-24 04:19:13 
  * @Last Modified by: Julian Liu
- * @Last Modified time: 2019-11-24 04:30:34
+ * @Last Modified time: 2019-11-25 22:40:50
  */
 
 #include <stdio.h>
@@ -13,4 +13,5 @@ int main(void) {
 	scanf("%s", i);
 	for (int n = strlen(i) - 1; n >= 0; n--)
 		printf("%c", i[n]);
+	return 0;
 }
